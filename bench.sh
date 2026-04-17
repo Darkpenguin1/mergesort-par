@@ -1,6 +1,14 @@
 #!/bin/bash
+#SBATCH --job-name=merge-par
+#SBATCH --partition=Centaurus
+#SBATCH --time=02:00:00
+#SBATCH --output=logs/%x-%j.out
+#SBATCH --error=logs/%x-%j.err
+#SBATCH --mem=20GB
+#SBATCH --cpus-per-task=8
 
-EXEC=./mergesort_par
+
+EXEC=./mergesort_seq
 OUTFILE=results.csv
 
 SIZES=(100000 1000000)

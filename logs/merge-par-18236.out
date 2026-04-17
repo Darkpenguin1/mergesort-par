@@ -1,0 +1,19 @@
+Starting benchmark...
+Running: n=100000 threads=1 run=1
+Running: n=100000 threads=1 run=2
+Running: n=100000 threads=2 run=1
+Running: n=100000 threads=2 run=2
+Running: n=100000 threads=4 run=1
+Running: n=100000 threads=4 run=2
+Running: n=100000 threads=8 run=1
+Running: n=100000 threads=8 run=2
+Running: n=1000000 threads=1 run=1
+Running: n=1000000 threads=1 run=2
+Running: n=1000000 threads=2 run=1
+Running: n=1000000 threads=2 run=2
+Running: n=1000000 threads=4 run=1
+Running: n=1000000 threads=4 run=2
+Running: n=1000000 threads=8 run=1
+Running: n=1000000 threads=8 run=2
+Done.
+Results saved to results.csv
